@@ -87,20 +87,12 @@ Booking API Collection
 
 Newman allows execution of Postman collections from command line.
 
-### Install Newman
-
-```bash
-npm install -g newman
-Run Collection
-newman run Booking_API_Collection.json \
--e Booking_Environment.json \
--r cli,html \
---reporter-html-export report.html
-
 **Output**
-    CLI execution summary
-    HTML execution report
+    -CLI execution summary
+    -HTML execution report
 ---
+
+
 ###  🔁 Jenkins CI/CD Integration
     This project supports automated execution using Jenkins.
 📊 CI Pipeline Benefits
