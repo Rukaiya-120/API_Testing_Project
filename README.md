@@ -104,8 +104,14 @@ newman run Booking_API_Collection.json \
 ---
 
 
-###  🔁 Jenkins CI/CD Integration
-    This project supports automated execution using Jenkins.
+
+---
+🔁 Jenkins CI/CD Integration
+
+-  This project supports automated execution using Jenkins.
+-  Archive the HTML report as build artifact.
+
+
 📊 CI Pipeline Benefits
     
    - Automated regression execution
