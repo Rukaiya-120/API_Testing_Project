@@ -98,14 +98,11 @@ newman run Booking_API_Collection.json \
 --reporter-html-export report.html
 
 **Output**
-
-CLI execution summary
-
-HTML execution report
-
+    CLI execution summary
+    HTML execution report
+---
 ###  🔁 Jenkins CI/CD Integration
-
-This project supports automated execution using Jenkins.
+    This project supports automated execution using Jenkins.
 📊 CI Pipeline Benefits
     
    - Automated regression execution
